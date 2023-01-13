@@ -33,8 +33,35 @@
 }
 
 #category_bar{
-    display: grid;
-    grid-template-columns: repeat(8,4vw);
+    display: flex;
+    flex-wrap: nowrap;
     overflow: hidden;
+    padding-bottom: 0px;
     justify-content: space-evenly;
+}
+
+#page_content{
+    background-color: #f3f5f9;
+}
+
+.my_row{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: flex-start;
+    width: 25vw;
+    justify-content: space-evenly;
+}
+.filter_box{
+    background-color: white;
+}
+
+.myblue{
+    color: rgb(19, 29, 69);
+}
+
+.my_checkbox{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 20vw;
 }
